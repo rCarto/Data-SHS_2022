@@ -1,0 +1,299 @@
+---
+title: "Panorama des outils et plateformes pour déposer ses codes"
+subtitle: "Semaine Data-SHS Paris 2022"
+author: "Timothée Giraud"
+date: today
+date-format: "MMM D, YYYY"
+title-slide-attributes: 
+  data-background-image: "img/logo_by-sa.svg"
+  data-background-size: 10%
+  data-background-position: 50% 98%
+format: 
+  revealjs:
+    cache: true
+    echo: true
+    theme: simple
+    scrollable: false
+    smaller: false
+    auto-stretch: true
+    preview-links: true
+    logo: "img/logos-footer.png"
+    pdf-max-pages-per-slide: 1
+---
+
+
+# Pourquoi déposer ses codes de recherche ?
+
+## Pour soi-même, pour les autres, pour la science !
+
+* Réutilisation
+
+* Traçabilité
+
+* Collaboration
+
+* Transparence et vérifiabilité
+
+
+# Que déposer ?
+
+## Des fragments de code
+
+Un pense-bête sur une opération spécifique.
+
+![Exemple de gist](img/gist.png){width="50%"}
+
+## Des analyses completes
+
+Le code utilisé pour créer les analyses, les figures d'un article.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<iframe width="780" height="500" src="https://www.proc-int-cartogr-assoc.net/2/38/2019/ica-proc-2-38-2019.pdf" title="L'article"></iframe>
+
+:::
+
+::: {.column width="50%"}
+
+<iframe width="780" height="500" src="https://riatelab.github.io/MDM/index.html" title="Le code"></iframe>
+
+:::
+
+::::
+
+
+
+
+## Des logiciels
+
+Code construit pour la réutilisation, généricisé.
+
+![](img/soft.png){width="60%"}
+
+
+
+# Les plateformes et les outils
+
+## Les logiciels de gestion de versions
+
+### Git, GitHub, GitLab
+
+**Git** est un logiciel de gestion de versions distribué pour  
+
+  - suivre les changements dans les fichiers texte,
+  - gérer l'historique du code source,
+  - partager le code avec des dépots distants.
+  
+  
+**GitHub** et **GitLab** hébèrgent des dépots distants + des services pour gérer des projets (issue tracking, collaboration, hébergement web, CI/CD).
+
+## GitHub, GitLab
+
+**GitHub** est une entreprise de Microsoft qui produit et héberge un logiciel non libre (ou privateur) sur le site github.com. 
+
+**GitLab** est une entreprise qui produit un logiciel libre (GitLab CE) et un logiciel non libre (GitLab EE & gitlab.com).
+
+
+## GitLab
+
+![](img/huma-num01.png)
+
+
+[![](img/huma-num02.png)](https://documentation.huma-num.fr/gitlab/)
+
+
+## GitHub
+
+GitHub est un peu le réseau social des développeurs.   
+Sa centralisation et la masse de ses utilisateurs sont deux éléments qui facilitent les collaborations et donnent une bonne visibilité aux projets.
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](img/gh1.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](img/gh2.png)
+
+
+:::
+
+::::
+
+
+
+
+
+## Git, GitHub, GitLab
+
+Ces plateformes sont spécifiquement dédiées au developpement de logiciels.
+
+Ce sont des services, parfois commerciaux, sans aucune garantie de perénité.
+
+Il ne s'agit en aucun cas de services d'archivage.
+
+
+
+## Les services d'archivage
+Ici l'objectif est bien d'archiver les codes, les bases de données, les figures...
+
+## Zenodo
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](img/zen.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](img/tlc_zen.png)
+
+
+:::
+
+::::
+
+Un service développé et hébergé par le CERN. 
+
+
+## Figshare
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](img/fig1.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](img/fig2.png)
+
+
+:::
+
+::::
+
+
+Un service commercial de l'entreprise qui possède le groupe Nature Publishing. 
+
+## D'autres services
+
+* ![](img/logo_dryad.png){width="300px"}
+* ![](img/logo_hal.png){width="300px"}
+* ![](img/logo_nakala.png){width="300px"}
+* ![](img/logo_sh.png){width="300px"}
+* ...
+
+
+
+## Les répertoires d'extensions de logiciel
+
+Différents languages ou logiciels proposent des répertoires pour la mise à disposition d'extensions. 
+
+Les extensions sont proposées de manière plus ou moins harmonisée. 
+
+Un accès est souvent donné aux versions anciennes.  
+
+## Les répertoires d'extensions de logiciel
+Pour les librairies R, les *packages* : le **CRAN** (**C**omprehensive **R** **A**rchive **N**etwork). 
+
+:::: {.columns}
+::: {.column width="50%"}
+![](img/cran1.png)
+:::
+::: {.column width="50%"}
+![](img/cran2.png)
+:::
+::::
+
+## Les répertoires d'extensions de logiciel
+Pour les librairies Python : **PyPi** (**Py**thon **P**ackage **I**ndex).
+ 
+:::: {.columns}
+::: {.column width="50%"}
+![](img/pypi1.png)
+:::
+::: {.column width="50%"}
+![](img/pypi2.png)
+:::
+::::
+
+## Les répertoires d'extensions de logiciel
+Pour les librairies Javascript : **npm** (**n**pm is not a **p**ackage **m**anager).
+ 
+:::: {.columns}
+::: {.column width="50%"}
+![](img/npm1.png)
+:::
+::: {.column width="50%"}
+![](img/npm2.png)
+:::
+::::
+
+
+
+
+# Exemple
+
+## Un [(data) paper](https://doi.org/10.4000/cybergeo.37430)... {.smaller}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+Thibault Le Corre. (2021). Une base de données pour étudier vingt années de dynamiques du marché immobilier résidentiel en Île-de-France, In *Cybergeo: European Journal of Geography*, Data papers, document 992. https://doi.org/10.4000/cybergeo.37430  
+:::
+
+::: {.column width="70%"}
+![](img/tlc_pap.png)
+:::
+
+::::
+
+## portant sur une [base de données](https://doi.org/10.5281/zenodo.4497219)... {.smaller}  
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+Thibault Le Corre. (2020). CASSMIR [Data set]. In Cybergeo (2.0.0). Zenodo. https://doi.org/10.5281/zenodo.4497219     
+
+:::
+
+::: {.column width="70%"}
+
+![](img/tlc_zen.png)
+:::
+
+::::
+
+
+## dont la construction technique est décrite par un [site web / notebook](https://tlecorre.gitpages.huma-num.fr/cassmir)...  
+
+:::: {.columns}
+::: {.column width="80%"}
+![](img/tlc_web.png)
+:::
+::::
+
+## hébergé sur une [forge](https://gitlab.huma-num.fr/tlecorre/cassmir).
+
+:::: {.columns}
+::: {.column width="80%"}
+![](img/tlc_web2.png)
+:::
+::::
+
+# Merci de votre attention
